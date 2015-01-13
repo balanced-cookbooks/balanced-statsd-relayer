@@ -1,0 +1,34 @@
+<%= JSON.pretty_generate(@config_hash) %>
+
+
+//{
+//  port: 8125
+//, graphitePort: 2003
+//, graphiteHost: "127.0.0.1"
+//, server: "./servers/udp"
+//, backends: [
+//    "./backends/repeater"
+//]
+//, debug: false
+//, address: "0.0.0.0"
+//, address_ipv6: false
+//, mgmt_address: "0.0.0.0"
+//, mgmt_port: 8126
+//, title: "statsd"
+//, healthStatus: "up"
+//, flushInterval: 10000
+//, percentThreshold: 90
+//, flush_counts: true
+//, graphite: {
+//    "legacyNamespace": true
+//}
+//, repeater: {
+//    "tcp": {
+//        "debug": true,
+//        "enabled": true,
+//        "host": "internal-metrics.vandelay.io",
+//        "maxConnections": 10,
+//        "port": 8125
+//    }
+//}
+//}
